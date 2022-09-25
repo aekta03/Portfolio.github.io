@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--bootstrap css-->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet"/>
+    <!--bootstrap script-->
+    <script scr="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script src="js/typed.min.js"></script>
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">WELCOME TO MY PROTFOLIO</div>
+    <div class="main-section">
+        <div class="row">
+            <div class="col-md-3 left-section">
+                <div class="basic-info">
+                    <div class="picture wrapper"></div>
+                    <img 
+                    src="./media/images/photo.jpeg"
+                    alt="profile picture of user"
+                    class="profile-img" />
+                    
+            
+                    <nav>
+                        <a class="nav-item" href="#Home">Home</a>
+                        <a class="nav-item" href="#About">About</a>
+                        <a class="nav-item" href="#Skills">Skills</a>
+                        <a class="nav-item" href="#Services">Services</a>
+                        <a class="nav-item" href="#Projects">Projects</a>
+                        <a class="nav-item" href="#Contact">Contact</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-9 right-section">
+            
+                <section id="Home"class="home-section new-section">
+                    <h1>Home</h1>
+                    <div class="section-info">
+                        <style>
+                            body {
+                              background-image: url('../media/images/bg1.png');
+                            }
+                            </style>
+                            
+                        <img 
+                        src="./media/images/hi.jpg"
+                        alt="profile picture of user"
+                        class="profile-img" />
+                    <div class="text">
+                        <p>Hello, I am</p>
+                        <h1>Aekta Shrivastava</h1>
+                        <p>And I am a <span id="ani" style="color: #800080;"></span>Font End Developer</p>
+                        
+                        <button class = "button" onclick = 
+            "alert('RESUME')"> 
+            HIRE ME
+        </button> 
+                    </div>
+                </section>
+            <!--About-->
+                <section id="About"class="about-section new-section">
+                <h1>About</h1> <div class="section-info"> <img 
+                    src="./media/images/photo.jpeg"
+                    alt="profile picture of user"
+                    class="profile-img" />
+                 <p>Who am I?</p></div>
+                <div class="about-row">
+                    <div class="about-left-col">
+                    </div>
+                    <div class="about-right-col"> 
+                        <p id="p-title">Hello I am Aekta and I am a Front End Developer</p>
+                        <p>
+                            An innovative thinker, Always been very enthusiastic about technology and learning new skills.
+                            Looking for a challenging role to utilize my skills for the growth of the organization as well to enhance my knowledge about emerging trends in the IT sector.
+                    
+                        </p>
+            
+                        <button class = "button" onclick = 
+            "alert('RESUME')"> 
+            DOWNLOAD RESUME
+        </button> 
+                    </div>
+                </div>
+                </section>
+               
+                <section id="Skills" class="skills-section new-section">
+                
+                    <div class="section-info">
+                    <h1>Skill's</h1>
+                    <p>Skills I Posses</p>
+                    </div>
+                    <div class="skills-row">
+                    <div class="skills-left-col">
+                        <div class="soft-skills">
+                            <p>GOOD COMMUNICATION</p>
+                            <p>FLEXIBLE</p>
+                            <p>PROMBLEM SOLVER</p>
+                            <p>WORKING WELL IN A TEAM</p>
+                            
+                        </div>
+                    </div>
+                    <div class="skills-right-col">
+
+                        <div class="progress-div">
+                            <h1></h1>
+                            <p>
+                            <span>HTML<i class="fa-brands fa-html5"></i><br>
+                            <progress value="80" max="100"></progress></span>
+                            <span>85%</span>
+                            </p>
+                            <p>
+                            <span>CSS<i class="fa-brands fa-html5"></i><br>
+                                <progress value="80" max="100"></progress></span>
+                                <span>80%</span>
+                            </p>
+                            <p>
+                            <span>JS<i class="fa-brands fa-html5"></i><br>
+                                <progress value="80" max="100"></progress></span>
+                                <span>75%</span>
+                            </p>
+                            <p>
+                            <span>BOOTSTRAP<i class="fa-brands fa-html5"></i><br>
+                                <progress value="80" max="100"></progress></span>
+                                <span>70%</span>
+                            </p>
+                            <p>
+                            <span>JAVA<i class="fa-brands fa-html5"></i><br>
+                                <progress value="80" max="100"></progress></span>
+                                <span>80%</span>
+                            </p>
+                            <p>
+                            <span>SQL<i class="fa-brands fa-html5"></i><br>
+                                <progress value="80" max="100"></progress></span>
+                                <span>80%</span>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                
+                </section>
+                
+                <!--services-->
+                
+                <section id="Services"class="services-section new-section">
+                <div class="section-info">
+                    <h1>SERVICES</h1>
+                    <p>What I provide</p>
+                    </div>
+                <div class="services-row">
+                    <div class="services-box">
+                        <img 
+                    src="./media/images/ser.png"/>
+                        <h2>Web Design</h2>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. </p>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <img 
+                src="./media/images/ser.png"/>
+                    <h2>Web Development</h2>
+                    <p>I create and maintain websites. While my While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website's performance and capacity.</p>
+                    
+                    </div>
+                <div class="services-box">
+                        <img 
+                    src="./media/images/ser.png"/>
+                        <h2>Java Developer</h2>
+                        <p>Responsible for developing applications and software using the Java programming language.</p>
+                        </div>
+
+
+            </section>
+                
+                <section id="Projects"class="project-section new-section">
+                <div class="section-info">
+                    <h1>PROJECTS</h1>
+                    <p>Projects i made</p>
+                    </div>
+                    <div class="projects-box">
+                        <img 
+                    src="./media/images/voice.png"/>
+                        <h2>VOICE BASED EMAIL FOR VISUALLY CHALLENGED PEOPLE</h2>
+                        <p>The project titled voice based email system is a web based application developed that allows blind people to use Email system easily. The proposed system focuses on providing the basic functionalities like composing, reading, sending and receiving emails along with voice based interaction.</p>
+                        </div>
+                    <div class="projects-box">
+                            <img 
+                        src="./media/images/light.jpg"/>
+                            <h2>AUTOMATED STREET LIGHT FEEDBACK SYSTEM</h2>
+                            <p>Smart automatic street light system helps in controlling the street lights intelligently and automatically to minimize power consumption and reduces man work by fluctuating the street lights time to time and in certain conditions toggling as well as turning OFF of some lights concerning the motion observed on the roads</p>
+                            </div>
+    
+
+
+                
+            </section>
+
+                <section id="Contact"class="contact-section new-section">
+                <h1>Contact</h1>
+                <div class="section-info">
+                    <h2>CONTACT ME</h2>
+                    <p>I am Availabe</p>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-left-col">
+                        <img src="./media/images/cont.jpg"/>
+                    </div>
+                    <div class="contact-right-col">
+                        <form>
+                            <h2>CONNECT WITH ME!</h2>
+                            <input type="text" name=""placeholder="Name">
+                            <input type="e-mail" name=""placeholder="E-mail">
+                            <br>
+                            <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                            <br>
+                            <button class="c-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="footer">
+                <h2>Developed by Aekta Shrivastava</h2>
+
+            </section>
+
+            </div>
+            
+        </div>
+    </div>
+</header>
+<script>
+    let animate= new Typed('#ani',{
+        strings:["Front End Developer,Designer"],
+        typeSpeed:100,
+        backspeed:100,
+        loop:true,
+    })
+</script>
+</body>
+</html>
